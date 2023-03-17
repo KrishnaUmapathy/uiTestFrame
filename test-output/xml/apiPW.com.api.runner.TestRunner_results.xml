@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.097">
+    <properties></properties>
+
+            <testcase
+                name="runScenario"
+                time="0.097"
+                classname="apiPW.com.api.runner.TestRunner">
+
+            <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;com.microsoft.playwright.Playwright.request()&quot; because &quot;this.playwright&quot; is null">
+                <![CDATA[java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Playwright.request()" because "this.playwright" is null
+                apiPW.com.api.tests.AppTests.setUp(AppTests.java:49)✽.environment is loaded(file:///C:/Users/KrishnaUmapathy/eclipse-workspace/com.api.pw/src/main/java/apiPW/com/api/features/Login.feature:26)
+]]>
+            </failure>
+    </testcase>
+
+
+</testsuite>

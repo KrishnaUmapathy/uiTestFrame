@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.229">
+    <properties></properties>
+
+
+
+            <testcase
+                name="pingEnv"
+                time="0.116"
+                classname="apiPW.com.api.pw.App">
+            </testcase>
+            <testcase
+                name="Login"
+                time="0.267"
+                classname="apiPW.com.api.pw.App">
+            </testcase>
+            <testcase
+                name="quickQuote"
+                time="0.846"
+                classname="apiPW.com.api.pw.App">
+            </testcase>
+</testsuite>

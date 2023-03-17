@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.199">
+    <testcase classname="Title of your feature" name="Ping env" time="0.03">
+        <failure message="Cannot invoke &quot;com.microsoft.playwright.Playwright.request()&quot; because &quot;this.playwright&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given environment is loaded.................................................failed
+Then ping the environment and status should be success......................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Playwright.request()" because "this.playwright" is null
+	at apiPW.com.api.tests.AppTests.setUp(AppTests.java:49)
+	at ✽.environment is loaded(file:///C:/Users/KrishnaUmapathy/eclipse-workspace/com.api.pw/src/main/java/apiPW/com/api/features/Login.feature:26)
+]]></failure>
+    </testcase>
+</testsuite>

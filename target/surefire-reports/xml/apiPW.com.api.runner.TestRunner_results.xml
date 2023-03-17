@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.877">
+    <properties></properties>
+
+
+
+            <testcase
+                name="runScenario"
+                time="15.091"
+                classname="apiPW.com.api.runner.TestRunner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="1.268"
+                classname="apiPW.com.api.runner.TestRunner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="3.864"
+                classname="apiPW.com.api.runner.TestRunner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="0.654"
+                classname="apiPW.com.api.runner.TestRunner">
+            </testcase>
+</testsuite>
